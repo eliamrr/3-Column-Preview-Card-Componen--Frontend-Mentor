@@ -1,0 +1,100 @@
+*{
+    /* ### Primary */
+    --Gold_500: hsl(31, 77%, 52%);
+    --Cyan_800: hsl(184, 100%, 22%);
+    --Green_950: hsl(179, 100%, 13%);
+    /* ### Neutral */
+    --Transparent_white_paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Gray_100_background_headings_buttons: hsl(0, 0%, 95%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        /* ELIMINAR */
+        /* background-image: url(./design/desktop-design.jpg);
+        background-position: center;
+        background-repeat: no-repeat; */  
+        main{
+            margin-top: 13.5em;
+            width: 61.4em;
+            height: 33.3em;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            box-sizing: border-box;
+            overflow: hidden;
+            border-radius: 0.5em;
+            .card{
+                width: 20.46em;
+                height:100%;
+                padding: 0 3.15em;
+                img{
+                    padding-top: 3.18em;
+                }
+                h2{
+                    padding-top: 0.97em;
+                    font-size: 2.4em;
+                    font-weight: 700;
+                    color: var(--Gray_100_background_headings_buttons);
+                    font-family: "Big Shoulders", sans-serif;
+                    text-transform: uppercase;
+                }
+                p{
+                    padding-top: 1.8em;
+                    font-size: 1.01em;
+                    line-height: 1.65em;
+                    font-family: "Lexend Deca", sans-serif;
+                    color: var(--Transparent_white_paragraphs);
+                }
+                button{
+                    border: none;
+                    margin-top:5.5em ;
+                    border-radius: 2em;
+                    padding: 1.1em 2.35em;
+                    background-color:  var(--Gray_100_background_headings_buttons);
+                    cursor: pointer;
+                }
+            }
+            .setion1{
+                background-color: var(--Gold_500);
+                button{
+                    color: var(--Gold_500);
+                }
+            }
+            .setion2{
+                background-color: var(--Cyan_800);
+                button{
+                    color: var(--Cyan_800);
+                }           
+            }
+            .setion3{
+                background-color: var(--Green_950);
+                button{
+                    color: var(--Green_950);
+                }            
+            }
+        }
+    }
+}
+@media(max-width:375px){
+    body{
+        height: auto;
+        main{
+            margin: 1em;
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            .card{
+                width: 100%;
+                button{
+                    margin: 2em 0;
+                }
+            }
+        }
+    }
+}
