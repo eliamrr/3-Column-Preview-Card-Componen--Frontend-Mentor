@@ -17,7 +17,7 @@ Esta es una solución para el [desafío de perfil de enlaces sociales en Fronten
 Los usuarios deberían poder:
 - Ver los estados de `:hover` y `:focus` para todos los elementos interactivos de la página.
 ### Captura de pantalla
-![](./images/Screenshot%202025-09-10%20at%2003-41-40%20Frontend%20Mentor%203-column%20preview%20card%20component.png)
+![](./images/Screenshot%202025-09-10%20at%2004-04-51%20Frontend%20Mentor%203-column%20preview%20card%20component.png)
 
 ### Enlaces
 - URL del sitio en vivo: [Blog tarjeta de previsualización](https://eliamrr.github.io/3-Column-Preview-Card-Componen--Frontend-Mentor/)

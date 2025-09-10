@@ -15,12 +15,15 @@
         height: 100vh;
         display: flex;
         justify-content: center;
+        align-items: center;
+        background-color: var(--Gray_100_background_headings_buttons);
         /* ELIMINAR */
         /* background-image: url(./design/desktop-design.jpg);
         background-position: center;
-        background-repeat: no-repeat; */  
+        background-position: 20em;
+        background-repeat: no-repeat;  */
         main{
-            margin-top: 13.5em;
+            /* margin-top: 13.5em; */
             width: 61.4em;
             height: 33.3em;
             display: flex;
