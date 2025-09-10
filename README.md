@@ -20,7 +20,7 @@ Los usuarios deberían poder:
 ![](./images/Screenshot%202025-09-10%20at%2003-41-40%20Frontend%20Mentor%203-column%20preview%20card%20component.png)
 
 ### Enlaces
-- URL del sitio en vivo: [Blog tarjeta de previsualización](https://eliamrr.github.io/04-Componente_de_calificaci-n_interactiva/)
+- URL del sitio en vivo: [Blog tarjeta de previsualización](https://eliamrr.github.io/3-Column-Preview-Card-Componen--Frontend-Mentor/)
 
 ## Mi proceso
 ### Construido con
